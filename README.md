@@ -33,3 +33,5 @@ Build the project
 * This should use the .toml to create some folders (e.g., /dist/ and /<project_name>.egg_info/)
 
 Upload dist/*.whl and *.tar.gz
+
+`pip install twine --upgrade` and/or `twine upload dist/*`
