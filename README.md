@@ -35,3 +35,10 @@ Build the project
 Upload dist/*.whl and *.tar.gz
 
 `pip install twine --upgrade` and/or `twine upload dist/*`
+
+
+# Updating packages 
+
+1. Update `pyproject.toml` version.
+2. `python -m build`
+3. `twine upload dist/*`
